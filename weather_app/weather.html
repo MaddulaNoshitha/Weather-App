@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weatherstyle.css">
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="search_space">
+            <div class="search_box">
+                <input type="text" placeholder="Enter city to find weather" id="search_box">
+            </div>
+            <div class="search_button">
+                <input type="button" value='search' id="search_button">
+            </div>
+        </div>
+
+        <div class="center">
+            <div class="weather_img">
+               <img  id="pic" src="sunny.webp" width="250px" heigth=auto>
+               
+            </div>
+            <div class="tem">
+                <h1 id="temp">27</h1>
+            </div>
+            <div class="city">
+                <h1 id="city">Vijayawada</h1>
+            </div>
+        </div>
+
+        <div class="details">
+            <div class="humid">
+                <div class="himg">
+                    <img src="humidity.png">
+                    <h1 id="humiditydata">30</h1>
+                </div>
+                <div class="hhead">
+                    <h2>Humidity</h2>
+                </div>
+            </div>
+            <div class="Wind Speed">
+                <div class="wimg">
+                    <img src="wind.png">
+                    <h1 id="winddata">40</h1>
+
+                </div>
+                <div class="whead">
+                    <h2>Wind</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+
+</html>
